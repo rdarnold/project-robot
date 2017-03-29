@@ -1,0 +1,47 @@
+#######################################
+###### Overall Game Score Report ######
+#######################################
+
+       Supervisor:    PM:            Trainer:       Senator:       User:          Field:
+Year:
+ 1     Score:  0      Score: +34     Score:  0      Score: +4      Score: +42     Score: ---    
+       Apprv: -7      Apprv: +29     Apprv:  0      Apprv: -1      Apprv: +37     
+
+ 2     Score: +5      Score: +48     Score: +3      Score:  0      Score: +28     Score: ---    
+       Apprv: +2      Apprv: +43     Apprv: +3      Apprv: -5      Apprv: +20     
+
+ 3     Score: +16     Score: +24     Score: +3      Score:  0      Score: +19     Score: ---    
+       Apprv: +13     Apprv: +19     Apprv: +3      Apprv: -13     Apprv: +11     
+
+ 4     Score: +19     Score: +27     Score: +11     Score: +5      Score: +15     Score: +14     
+       Apprv: +17     Apprv: +22     Apprv: +11     Apprv: -12     Apprv: +4      
+
+ 5     Score: +20     Score: +19     Score: +11     Score: +5      Score: +6      Score: +15     
+       Apprv: +18     Apprv: +14     Apprv: +11     Apprv: -14     Apprv: -5      
+
+ 6     Score: +22     Score: +12     Score: +11     Score: +5      Score: +5      Score: +51     
+       Apprv: +20     Apprv: +5      Apprv: +11     Apprv: -16     Apprv: -14     
+
+ 7     Score: +24     Score: +12     Score: +11     Score: +5      Score: +5      Score: +55     
+       Apprv: +21     Apprv: -4      Apprv: +11     Apprv: -18     Apprv: -23     
+
+ 8     Score: +25     Score: +12     Score: +11     Score: +5      Score: +5      Score: +61     
+       Apprv: +23     Apprv: -13     Apprv: +11     Apprv: -20     Apprv: -32     
+
+ 9     Score: +28     Score: +12     Score: +11     Score: +5      Score: +5      Score: +61     
+       Apprv: +25     Apprv: -22     Apprv: +11     Apprv: -22     Apprv: -41     
+
+10     Score: +30     Score: +12     Score: +11     Score: +5      Score: +5      Score: +56     
+       Apprv: +28     Apprv: -31     Apprv: +11     Apprv: -24     Apprv: -50     
+
+11     Score: +33     Score: +12     Score: +11     Score: +5      Score: +5      Score: +50     
+       Apprv: +30     Apprv: -40     Apprv: +11     Apprv: -26     Apprv: -59     
+
+12     Score: +36     Score: +12     Score: +11     Score: +5      Score: +5      Score: +46     
+       Apprv: +33     Apprv: -49     Apprv: +11     Apprv: -28     Apprv: -68     
+
+13     Score: +39     Score: +12     Score: +11     Score: +5      Score: +5      Score: +41     
+       Apprv: +36     Apprv: -58     Apprv: +11     Apprv: -30     Apprv: -77     
+
+Total Score: +297           +248           +116           +54            +150           +450           
+Total Apprv: +259           -85            +116           -229           -297            0             

@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{03582414-97ec-4228-845b-072788c7796a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f1245bca-63b1-466f-a45b-9791e9ff67f2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5f597120-ad71-48ab-8085-725122e96a34}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\_GSShared\CollisionUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\GameButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\GameFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\GameListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\GameObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\GameScrollBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\Img.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\LinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectRobot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectRobot_Fonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_Ask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_Change_SubSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_End_Turn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_Help.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_Info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_Intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_Stakeholders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_SystemDesign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_Title.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenExtras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stakeholder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System_Development.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System_Fielded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System_Models.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System_Overall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System_Restrictions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDefines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_GSShared\winobj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectRobot.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_GSShared\CollisionUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\GameButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\GameFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\GameListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\GameObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\GameScrollBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\Img.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectRobot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Records.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_Ask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_Change_SubSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_End_Turn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_Help.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_Info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_Intro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_Stakeholders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_SystemDesign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_Title.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenExtras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System_Development.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System_Fielded.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System_Models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System_Overall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System_Restrictions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_GSShared\winobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Button_Plus_Silver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_for_subscreen_text.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_for_text.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_for_text_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_for_text_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_for_text_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_long.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_overview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_plus.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\button_sprite_switch.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\EndTurnPanel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GiantRobot.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GridBackground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\InfoPanel - Large.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\InfoPanel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\InfoPanel2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Popup_Window.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobot.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotFont9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ProjectRobotLogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ResourceWindow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sprite_Overlay.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TitleBackground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\sound\BEEP1C.WAV" />
+    <Media Include="res\sound\snd_back.wav" />
+    <Media Include="res\sound\snd_click3.wav" />
+    <Media Include="res\sound\snd_info.wav" />
+    <Media Include="res\sound\snd_pick.wav" />
+    <Media Include="res\sound\snd_smallclick.wav" />
+    <Media Include="res\sound\snd_smallclick_2.wav" />
+    <Media Include="res\sound\snd_smallclick_3.wav" />
+    <Media Include="res\sound\snd_takeoff.wav" />
+    <Media Include="res\sound\snd_tick.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

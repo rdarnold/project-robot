@@ -1,0 +1,205 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PROJECTROBOT        ICON    DISCARDABLE     "res/ProjectRobot.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "res/SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_PROJECTROBOT MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_PROJECTROBOT ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 230, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_PROJECTROBOT,IDC_MYICON,14,9,20,20
+    LTEXT           "Project Robot Version 1.0 by Ross Arnold",IDC_STATIC,49,
+                    10,140,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TITLE_BACKGROUND    BITMAP  DISCARDABLE     "res\\TitleBackground.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\ProjectRobotLogo.bmp"
+IDB_BUTTON_SPRITE       BITMAP  DISCARDABLE     "res\\button_sprite.bmp"
+IDB_GRID_BACKGROUND     BITMAP  DISCARDABLE     "res\\GridBackground.bmp"
+IDB_TITLE_LOGO          BITMAP  DISCARDABLE     "res\\TitleLogo.bmp"
+IDB_TITLE_COPYRIGHT     BITMAP  DISCARDABLE     "res\\TitleCopyright.bmp"
+IDB_FONT_1              BITMAP  DISCARDABLE     "res\\ProjectRobotFont.bmp"
+IDB_INFO_PANEL          BITMAP  DISCARDABLE     "res\\InfoPanel.bmp"
+IDB_FONT_2              BITMAP  DISCARDABLE     "res\\ProjectRobotFont2.bmp"
+IDB_BUTTON_SPRITE_2     BITMAP  DISCARDABLE     "res\\button_sprite_long.bmp"
+IDB_BUTTON_SPRITE_PLUS  BITMAP  DISCARDABLE     "res\\button_sprite_3.bmp"
+IDB_FONT_3              BITMAP  DISCARDABLE     "res\\ProjectRobotFont3.bmp"
+IDB_BUTTON_SPRITE_FOR_TEXT BITMAP  DISCARDABLE     "res\\button_sprite_for_text.bmp"
+IDB_INFO_PANEL_2        BITMAP  DISCARDABLE     "res\\InfoPanel2.bmp"
+IDB_BUTTON_SPRITE_4     BITMAP  DISCARDABLE     "res\\button_sprite_4.bmp"
+IDB_FONT_4              BITMAP  DISCARDABLE     "res\\ProjectRobotFont4.bmp"
+IDB_FONT_5              BITMAP  DISCARDABLE     "res\\ProjectRobotFont5.bmp"
+IDB_FONT_6              BITMAP  DISCARDABLE     "res\\ProjectRobotFont6.bmp"
+IDB_FONT_7              BITMAP  DISCARDABLE     "res\\ProjectRobotFont7.bmp"
+IDB_FONT_8              BITMAP  DISCARDABLE     "res\\ProjectRobotFont8.bmp"
+IDB_FONT_9              BITMAP  DISCARDABLE     "res\\ProjectRobotFont9.bmp"
+IDB_FONT_10             BITMAP  DISCARDABLE     "res\\ProjectRobotFont10.bmp"
+IDB_BUTTON_SPRITE_5     BITMAP  DISCARDABLE     "res\\button_sprite_5.bmp"
+IDB_FONT_11             BITMAP  DISCARDABLE     "res\\ProjectRobotFont11.bmp"
+IDB_BUTTON_SPRITE_6     BITMAP  DISCARDABLE     "res\\button_sprite_6.bmp"
+IDB_RESOURCE_WINDOW     BITMAP  DISCARDABLE     "res\\ResourceWindow.bmp"
+IDB_END_TURN_PANEL      BITMAP  DISCARDABLE     "res\\EndTurnPanel.bmp"
+IDB_BUTTON_SPRITE_FOR_TEXT_2 BITMAP  DISCARDABLE     "res\\button_sprite_for_text_2.bmp"
+IDB_BUTTON_SPRITE_FOR_TEXT_3 BITMAP  DISCARDABLE     "res\\button_sprite_for_text_3.bmp"
+IDB_BUTTON_SPRITE_PLUS_2 BITMAP  DISCARDABLE     "res\\button_sprite_plus.bmp"
+IDB_BUTTON_SPRITE_SWITCH BITMAP  DISCARDABLE     "res\\button_sprite_switch.bmp"
+IDB_BUTTON_SPRITE_FOR_TEXT_4 BITMAP  DISCARDABLE     "res\\button_sprite_for_text_4.bmp"
+IDB_OVERLAY             BITMAP  DISCARDABLE     "res\\Sprite_Overlay.bmp"
+IDB_FONT_12             BITMAP  DISCARDABLE     "res\\ProjectRobotFont12.bmp"
+IDB_BUTTON_SPRITE_OVERVIEW BITMAP  DISCARDABLE     "res\\button_sprite_overview.bmp"
+IDB_FONT_13             BITMAP  DISCARDABLE     "res\\ProjectRobotFont13.bmp"
+IDB_FONT_14             BITMAP  DISCARDABLE     "res\\ProjectRobotFont14.bmp"
+IDB_FONT_15             BITMAP  DISCARDABLE     "res\\ProjectRobotFont15.bmp"
+IDB_FONT_16             BITMAP  DISCARDABLE     "res\\ProjectRobotFont16.bmp"
+IDB_GIANT_ROBOT         BITMAP  DISCARDABLE     "res\\GiantRobot.bmp"
+IDB_POPUP_WINDOW        BITMAP  DISCARDABLE     "res\\Popup_Window.bmp"
+IDB_INFO_PANEL_LARGE    BITMAP  DISCARDABLE     "res\\InfoPanel - Large.bmp"
+IDB_BUTTON_SPRITE_FOR_SUBSCREEN_TEXT BITMAP  DISCARDABLE     "res\\button_sprite_for_subscreen_text.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_SOUND_BUTTON_1      WAVE    DISCARDABLE     "res\\sound\\snd_tick.wav"
+IDR_SOUND_BUTTON_2      WAVE    DISCARDABLE     "res\\sound\\snd_pick.wav"
+IDR_SOUND_BUTTON_3      WAVE    DISCARDABLE     "res\\sound\\snd_smallclick.wav"
+IDR_SOUND_BUTTON_4      WAVE    DISCARDABLE     "res\\sound\\snd_smallclick_2.wav"
+IDR_SOUND_BUTTON_5      WAVE    DISCARDABLE     "res\\sound\\snd_click3.wav"
+IDR_SOUND_BACK          WAVE    DISCARDABLE     "res\\sound\\snd_back.wav"
+IDR_SOUND_INFO          WAVE    DISCARDABLE     "res\\sound\\snd_info.wav"
+IDR_SOUND_TAKEOFF       WAVE    DISCARDABLE     "res\\sound\\snd_takeoff.wav"
+IDR_SOUND_BUTTON_6      WAVE    DISCARDABLE     "res\\sound\\snd_smallclick_3.wav"
+IDR_SOUND_BUTTON_7      WAVE    DISCARDABLE     "res\\sound\\BEEP1C.WAV"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "ProjectRobot"
+    IDS_HELLO               "Hello World!"
+    IDC_PROJECTROBOT        "PROJECTROBOT"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

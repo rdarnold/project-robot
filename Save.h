@@ -1,0 +1,3 @@
+
+void SaveGameData();
+void LoadGameData();

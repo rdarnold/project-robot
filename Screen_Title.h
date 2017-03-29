@@ -1,0 +1,3 @@
+
+void StartTitleScreen();
+void DrawTitleScreen();

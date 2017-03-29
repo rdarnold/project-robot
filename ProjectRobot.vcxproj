@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{A33C7DCB-3CF6-4DF2-B83A-5F47E6428466}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\ProjectRobot.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\ProjectRobot.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\ProjectRobot.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\ProjectRobot.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;Msimg32.lib;comctl32.lib;shlwapi.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\ProjectRobot.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\ProjectRobot.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\ProjectRobot.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\ProjectRobot.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;Msimg32.lib;comctl32.lib;shlwapi.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\_GSShared\CollisionUtils.cpp" />
+    <ClCompile Include="..\_GSShared\GameButton.cpp" />
+    <ClCompile Include="..\_GSShared\GameFont.cpp" />
+    <ClCompile Include="..\_GSShared\GameListBox.cpp" />
+    <ClCompile Include="..\_GSShared\GameObj.cpp" />
+    <ClCompile Include="..\_GSShared\GameScrollBar.cpp" />
+    <ClCompile Include="..\_GSShared\Img.cpp" />
+    <ClCompile Include="..\_GSShared\LinkedList.cpp" />
+    <ClCompile Include="..\_GSShared\random.cpp" />
+    <ClCompile Include="..\_GSShared\Sound.cpp" />
+    <ClCompile Include="..\_GSShared\Sprite.cpp" />
+    <ClCompile Include="..\_GSShared\Utilities.cpp" />
+    <ClCompile Include="..\_GSShared\winobj.cpp" />
+    <ClCompile Include="PopupWindow.cpp" />
+    <ClCompile Include="ProjectRobot.cpp" />
+    <ClCompile Include="ProjectRobot_Fonts.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="ScreenExtras.cpp" />
+    <ClCompile Include="Screen_Ask.cpp" />
+    <ClCompile Include="Screen_Change_SubSystem.cpp" />
+    <ClCompile Include="Screen_End_Turn.cpp" />
+    <ClCompile Include="Screen_Help.cpp" />
+    <ClCompile Include="Screen_Info.cpp" />
+    <ClCompile Include="Screen_Intro.cpp" />
+    <ClCompile Include="Screen_Stakeholders.cpp" />
+    <ClCompile Include="Screen_SystemDesign.cpp" />
+    <ClCompile Include="Screen_Title.cpp" />
+    <ClCompile Include="Stakeholder.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="System_Development.cpp" />
+    <ClCompile Include="System_Fielded.cpp" />
+    <ClCompile Include="System_Models.cpp" />
+    <ClCompile Include="System_Overall.cpp" />
+    <ClCompile Include="System_Restrictions.cpp" />
+    <ClCompile Include="TextDefines.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectRobot.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_GSShared\CollisionUtils.h" />
+    <ClInclude Include="..\_GSShared\GameButton.h" />
+    <ClInclude Include="..\_GSShared\GameFont.h" />
+    <ClInclude Include="..\_GSShared\GameListBox.h" />
+    <ClInclude Include="..\_GSShared\GameObj.h" />
+    <ClInclude Include="..\_GSShared\GameScrollBar.h" />
+    <ClInclude Include="..\_GSShared\Img.h" />
+    <ClInclude Include="..\_GSShared\LinkedList.h" />
+    <ClInclude Include="..\_GSShared\Sound.h" />
+    <ClInclude Include="..\_GSShared\Sprite.h" />
+    <ClInclude Include="..\_GSShared\Utilities.h" />
+    <ClInclude Include="..\_GSShared\winobj.h" />
+    <ClInclude Include="PopupWindow.h" />
+    <ClInclude Include="ProjectRobot.h" />
+    <ClInclude Include="Records.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="ScreenExtras.h" />
+    <ClInclude Include="Screen_Ask.h" />
+    <ClInclude Include="Screen_Change_SubSystem.h" />
+    <ClInclude Include="Screen_End_Turn.h" />
+    <ClInclude Include="Screen_Help.h" />
+    <ClInclude Include="Screen_Info.h" />
+    <ClInclude Include="Screen_Intro.h" />
+    <ClInclude Include="Screen_Stakeholders.h" />
+    <ClInclude Include="Screen_SystemDesign.h" />
+    <ClInclude Include="Screen_Title.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="SubScreen.h" />
+    <ClInclude Include="System_Development.h" />
+    <ClInclude Include="System_Fielded.h" />
+    <ClInclude Include="System_Models.h" />
+    <ClInclude Include="System_Overall.h" />
+    <ClInclude Include="System_Restrictions.h" />
+    <ClInclude Include="TextDefines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Button_Plus_Silver.bmp" />
+    <Image Include="res\button_sprite.bmp" />
+    <Image Include="res\button_sprite_3.bmp" />
+    <Image Include="res\button_sprite_4.bmp" />
+    <Image Include="res\button_sprite_5.bmp" />
+    <Image Include="res\button_sprite_6.bmp" />
+    <Image Include="res\button_sprite_for_subscreen_text.bmp" />
+    <Image Include="res\button_sprite_for_text.bmp" />
+    <Image Include="res\button_sprite_for_text_2.bmp" />
+    <Image Include="res\button_sprite_for_text_3.bmp" />
+    <Image Include="res\button_sprite_for_text_4.bmp" />
+    <Image Include="res\button_sprite_long.bmp" />
+    <Image Include="res\button_sprite_overview.bmp" />
+    <Image Include="res\button_sprite_plus.bmp" />
+    <Image Include="res\button_sprite_switch.bmp" />
+    <Image Include="res\EndTurnPanel.bmp" />
+    <Image Include="res\GiantRobot.bmp" />
+    <Image Include="res\GridBackground.bmp" />
+    <Image Include="res\InfoPanel - Large.bmp" />
+    <Image Include="res\InfoPanel.bmp" />
+    <Image Include="res\InfoPanel2.bmp" />
+    <Image Include="res\Popup_Window.bmp" />
+    <Image Include="res\ProjectRobot.ico" />
+    <Image Include="res\ProjectRobotFont.bmp" />
+    <Image Include="res\ProjectRobotFont10.bmp" />
+    <Image Include="res\ProjectRobotFont11.bmp" />
+    <Image Include="res\ProjectRobotFont12.bmp" />
+    <Image Include="res\ProjectRobotFont13.bmp" />
+    <Image Include="res\ProjectRobotFont14.bmp" />
+    <Image Include="res\ProjectRobotFont15.bmp" />
+    <Image Include="res\ProjectRobotFont16.bmp" />
+    <Image Include="res\ProjectRobotFont2.bmp" />
+    <Image Include="res\ProjectRobotFont3.bmp" />
+    <Image Include="res\ProjectRobotFont4.bmp" />
+    <Image Include="res\ProjectRobotFont5.bmp" />
+    <Image Include="res\ProjectRobotFont6.bmp" />
+    <Image Include="res\ProjectRobotFont7.bmp" />
+    <Image Include="res\ProjectRobotFont8.bmp" />
+    <Image Include="res\ProjectRobotFont9.bmp" />
+    <Image Include="res\ProjectRobotLogo.bmp" />
+    <Image Include="res\ResourceWindow.bmp" />
+    <Image Include="res\small.ico" />
+    <Image Include="res\Sprite_Overlay.bmp" />
+    <Image Include="res\TitleBackground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\sound\BEEP1C.WAV" />
+    <Media Include="res\sound\snd_back.wav" />
+    <Media Include="res\sound\snd_click3.wav" />
+    <Media Include="res\sound\snd_info.wav" />
+    <Media Include="res\sound\snd_pick.wav" />
+    <Media Include="res\sound\snd_smallclick.wav" />
+    <Media Include="res\sound\snd_smallclick_2.wav" />
+    <Media Include="res\sound\snd_smallclick_3.wav" />
+    <Media Include="res\sound\snd_takeoff.wav" />
+    <Media Include="res\sound\snd_tick.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
